@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Ghibli">
+  <meta name="description" content="Portfolio page of Ghibli - a web developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Julius+Sans+One&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@100;300;400;500&family=Ruda:wght@400;500;600;700;800&family=Titillium+Web:wght@200;300;400&family=Ubuntu:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Poppins:wght@200;300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="assets/images/favicon.ico" rel="shortcut icon">
+  <title>Home | Ghibli</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>G H I B L I</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="#About Me"> About Me </a>
+        </li>
+        <li>
+          <a href="#Work"> Work </a>
+        </li>
+        <li>
+          <a href="#Contact Me"> Contact Me </a>
+        </li>
+        <li>
+          <a href="https://docs.google.com/document/d/12vC9CjB0hq3F2hlOGpug-8rnFnq0VHiFeSQKnQVny7U/edit?usp=sharing">
+            Resume </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <article>
+    <h3>“Everybody should learn to program a computer, because it teaches you how to think.” <span>- Steve Jobs</span>
+    </h3>
+    <img src="assets/images/portfolio-photo.jpg" alt="a black and white photo of Ghibli smiling." class="img-ghibli" />
+  </article>
+
+  <br>
+
+  <main>
+
+    <section id="About Me">
+      <h2>About Me</h2>
+      <p>
+        My name is Ali Aran, I am a student at UNC-Chapel Hill Boot Camp, in the "Full Stack Flex Program". Spread over
+        24 weeks, this program focuses on teaching the required knowledge and skills to build dynamic, end-to-end web
+        applications. Upon completion, scheduled for July 21, 2021, the program will award a professional certificate to
+        entitle each graduate as a "Full Stack Web Developer".
+        <br>
+        <br>
+        This particular portfolio page displays examples of the work that I have completed in the program after 9 weeks
+        of rigorous learning and it will be updated regularly to include more advanced work. The main topics which I
+        covered so far include: HTML, Git, CSS, Javascript, Web-APIs, Third-Party-APIs and Server-Side-APIs.
+        <br>
+        <br>
+        I am an architect and prior to my involvement in coding I mostly worked on residential projects both in the US
+        and overseas. My responsibilities were usually spread between the following phases of the architectural
+        services: program of requirements, schematic design, design development, construction documents, construction
+        administration. In time, coordinating the different groups of professionals who were involved in these phases
+        has become an inherent part of my job as well. Such endeavors developed my abilities to foresee problems and act
+        proactively. My career also let me supervise the design and manufacturing processes simultaneously while I
+        partnered with a boat builder to produce custom-designed, homely sailboats.
+        <br>
+        <br>
+        I am interested in education and I had the opportunity to teach part-time at different universities. I taught
+        architectural design to sophomore students and structural design to seniors. Teaching and the academic
+        environment enabled me to do research, form interdisciplinary ties and broaden my knowledge. Even though
+        utilizing computers through softwares like AutoCAD, SketchUp, Rhino, Photoshop or 3DS Max was always essential
+        in the architectural practice, it was through my affiliation with the schools that I was introduced to the
+        concepts of algorithmic thinking and parametric design as applicable design methods in architecture.
+        <br>
+        <br>
+        All along my professional life, I took great advantage of my critical thinking skills, attention to details and
+        commitment to success. Now, I like to continue manifesting my potential as a "Web Developer" and I am really
+        excited!
+      </p>
+    </section>
+
+    <section id="Work">
+      <h2>Work</h2>
+      <figure>
+
+        <!-- When image tags were left on their own inside the figure container, there were issues of handling the flexbox and aligning them with the H2 container even though the figure container was the parent. Once they were placed in div containers, those problems were solved. The second div to hold the H4 and P was required to apply "absolute" positioning. -->
+
+        <div class="image-container-large">
+          <div class="text-container-large color">
+            <h4>Weather Screen</h4>
+            <p>Javascript | APIs<br> Dynamic HTML & CSS</p>
+          </div>
+          <div class="bw-l">
+            <a href="https://aranata.github.io/weather-screen/" target="blank">
+              <img src="assets/images/wheather-screen-image.png" alt="a photo of Work 01, showing a screenshot..."
+                class="img-large">
+            </a>
+          </div>
+        </div>
+        <div class="image-container-normal">
+          <div class="text-container-normal color">
+            <h4>Daily Planner</h4>
+            <p>JQuery | Bootstrap <br>Moment-js | Local storage</p>
+          </div>
+          <div class="bw">
+            <a href="https://aranata.github.io/daily-planner/" target="blank">
+              <img src="assets/images/daily-planner-image.png" alt="a photo of Work 02, showing a screenshot..."
+                class="img-normal">
+            </a>
+          </div>
+        </div>
+        <div class="image-container-normal">
+          <div class="text-container-normal color">
+            <h4>MIPSO</h4>
+            <p>A fan page</p>
+          </div>
+          <div class="bw">
+            <a href="https://aranata.github.io/Fanpage-mipso/" target="blank">
+              <img src="assets/images/mipso.png" alt="a photo of Work 03, showing a screenshot..." class="img-normal">
+            </a>
+          </div>
+        </div>
+        <div class="image-container-normal">
+          <div class="text-container-normal color">
+            <h4>Buddy Finder</h4>
+            <p>Javascript | APIs<br> Dynamic HTML & CSS</p>
+          </div>
+          <div class="bw">
+            <a href="https://aranata.github.io/project-bf/" target="blank">
+              <img src="assets/images/bf-image.png" alt="a photo of Work 04, showing a screenshot..."
+                class="img-normal">
+            </a>
+          </div>
+        </div>
+        <div class="image-container-normal">
+          <div class="text-container-normal color">
+            <h4>Code Quiz</h4>
+            <p>Javascript | Multiple Pages
+              <br>Dynamic HTML & CSS
+            </p>
+          </div>
+          <div class="bw">
+            <a href="https://aranata.github.io/code-quiz/" target="blank">
+              <img src="assets/images/code-quiz-image.png" alt="a screenshot of the application" class="img-normal">
+            </a>
+          </div>
+        </div>
+        <div class="image-container-normal">
+          <div class="text-container-normal color">
+            <h4>README Generator</h4>
+            <p>NodeJS | Inquirer</p>
+          </div>
+          <div class="bw">
+            <a href="https://github.com/AranATA/professional-readme-generator" target="blank">
+              <img src="assets/images/binary-code.jpg" alt="a photo of Work 02, showing a screenshot..."
+                class="img-normal">
+            </a>
+          </div>
+        </div>
+        <div class="image-container-normal">
+          <div class="text-container-normal color">
+            <h4>Team Profile</h4>
+            <p>OOD | Inquirer<br>Unit Test & Jest</p>
+          </div>
+          <div class="bw">
+            <a href="https://github.com/AranATA/team-profile-generator" target="blank">
+              <img src="assets/images/scrshot-team-profile-generator.png" alt="a photo of Work, showing a screenshot..."
+                class="img-normal">
+            </a>
+          </div>
+        </div>        
+        <div class="image-container-normal">
+          <div class="text-container-normal color">
+            <h4>Note Taker</h4>
+            <p>Servers | ExpressJS<br>Heroku Deployment</p>
+          </div>
+          <div class="bw">
+            <a href="https://evening-bastion-82312.herokuapp.com/" target="blank">
+              <img src="assets/images/scrshot-note-taker.png" alt="a screenshot of the application" class="img-normal">
+            </a>
+          </div>
+        </div>
+        <div class="image-container-normal">
+          <div class="text-container-normal color">
+            <h4>Password Generator</h4>
+            <p>Javascript | Dynamic HTML & CSS</p>
+          </div>
+          <div class="bw">
+            <a href="https://aranata.github.io/password-generator/" target="blank">
+              <img src="assets/images/computer-desk.jpg" alt="a screenshot of the application" class="img-normal">
+            </a>
+          </div>
+        </div>
+      </figure>
+    </section>
+
+    <!-- Here, this last section can me tagged as a "footer" yet footers can not be displayed as flexbox hence I left it as a section. -->
+    <section id="Contact Me">
+      <h2>Contact Me</h2>
+      <nav class="contact-nav">
+        <ul>
+          <li>
+            <a href="tel:+01-919-555-5555"> 1-919-555-5555 </a>
+          </li>
+          <li>
+            <a href="mailto: ghibli.github@gmail.com"> ghibli.github@gmail.com </a>
+          </li>
+          <li>
+            <a href="https://github.com/AranATA" target="blank"> GitHub </a>
+          </li>
+          <li>
+            <a href="#"> Twitter </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ghibli/"> LinkedIn </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+</body>
